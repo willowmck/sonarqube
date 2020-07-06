@@ -1,4 +1,4 @@
-FROM sonarqube:latest
+FROM sonarqube:7.7-community
 
 USER root
 ADD sonar.properties /opt/sonarqube/conf/sonar.properties
