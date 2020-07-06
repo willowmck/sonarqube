@@ -18,7 +18,7 @@ objects:
         kind: DockerImage
         name: docker.io/willowmck/sonarqube:7.7
       importPolicy: {}
-      name: latest
+      name: "7.7"
 - apiVersion: v1
   kind: Secret
   stringData:
